@@ -1,0 +1,50 @@
+name: Bug report
+description: Something isn't working as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please fill in as much as you can.
+        Before submitting, make sure you are on the latest version of this integration.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: integration_version
+    attributes:
+      label: Integration version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: ha_version
+    attributes:
+      label: Home Assistant version
+      placeholder: "2026.11.0"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Cooker hood model
+      description: The model name shown in the Silverline Hi+ app, if you know it.
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: |
+        Settings → Devices & services → Silverline Hi+ → ⋮ → Download diagnostics.
+        Drag the file in here. Email, password and serial number are removed automatically.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Debug logs
+      description: |
+        Enable debug logging on the integration page, reproduce the problem, then disable it again to download the log.
+        Paste the relevant lines here.
+      render: text

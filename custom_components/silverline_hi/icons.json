@@ -1,0 +1,55 @@
+{
+  "entity": {
+    "button": {
+      "reset_carbon_filter": {
+        "default": "mdi:air-filter"
+      },
+      "reset_grease_filter": {
+        "default": "mdi:filter-variant"
+      }
+    },
+    "number": {
+      "fan_speed": {
+        "default": "mdi:fan",
+        "range": {
+          "0": "mdi:fan-off",
+          "1": "mdi:fan-speed-1",
+          "2": "mdi:fan-speed-2",
+          "3": "mdi:fan-speed-3",
+          "4": "mdi:fan-plus"
+        }
+      },
+      "ventilation_timer": {
+        "default": "mdi:timer-outline"
+      }
+    },
+    "sensor": {
+      "carbon_filter_remaining": {
+        "default": "mdi:air-filter"
+      },
+      "grease_filter_remaining": {
+        "default": "mdi:filter-variant"
+      },
+      "air_quality": {
+        "default": "mdi:air-purifier"
+      },
+      "voc": {
+        "default": "mdi:molecule"
+      },
+      "silverconnect_status": {
+        "default": "mdi:bluetooth-connect"
+      },
+      "hob_to_hood_setting": {
+        "default": "mdi:stove"
+      }
+    },
+    "switch": {
+      "auto_mode": {
+        "default": "mdi:fan-auto",
+        "state": {
+          "off": "mdi:fan"
+        }
+      }
+    }
+  }
+}

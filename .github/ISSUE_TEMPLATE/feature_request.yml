@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a new feature or entity
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like?
+      description: Describe the feature and what you would use it for.
+    validations:
+      required: true
+  - type: textarea
+    id: app
+    attributes:
+      label: Is this available in the Silverline Hi+ app?
+      description: If the app can already do it, describe where and how.

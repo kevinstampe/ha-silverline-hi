@@ -1,0 +1,88 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Silverline Hi+ login",
+        "description": "Enter your Silverline Hi+ account credentials.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        },
+        "data_description": {
+          "email": "The email you use in the Silverline Hi+ app.",
+          "password": "The password you use in the Silverline Hi+ app."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate Silverline Hi+",
+        "description": "The password for {email} is no longer valid. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password",
+      "cannot_connect": "Failed to connect to the Silverline Hi+ cloud",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured",
+      "reauth_successful": "Re-authentication was successful"
+    }
+  },
+  "entity": {
+    "button": {
+      "reset_carbon_filter": {
+        "name": "Reset carbon filter"
+      },
+      "reset_grease_filter": {
+        "name": "Reset grease filter"
+      }
+    },
+    "number": {
+      "fan_speed": {
+        "name": "Fan speed"
+      },
+      "ventilation_timer": {
+        "name": "Ventilation timer"
+      }
+    },
+    "sensor": {
+      "carbon_filter_remaining": {
+        "name": "Carbon filter remaining"
+      },
+      "grease_filter_remaining": {
+        "name": "Grease filter remaining"
+      },
+      "air_quality": {
+        "name": "Air quality"
+      },
+      "voc": {
+        "name": "VOC"
+      },
+      "silverconnect_status": {
+        "name": "SilverConnect status"
+      },
+      "hob_to_hood_setting": {
+        "name": "Hob-to-hood setting"
+      }
+    },
+    "switch": {
+      "auto_mode": {
+        "name": "Auto mode"
+      }
+    }
+  },
+  "exceptions": {
+    "invalid_auth": {
+      "message": "Authentication with the Silverline Hi+ cloud failed"
+    },
+    "update_failed": {
+      "message": "Error fetching data from the Silverline Hi+ cloud: {error}"
+    },
+    "command_failed": {
+      "message": "Failed to send command to the cooker hood: {error}"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Original artwork: generic cooker hood. Not affiliated with any manufacturer. -->
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8e99a6"/>
+      <stop offset="0.5" stop-color="#c9d1da"/>
+      <stop offset="1" stop-color="#8e99a6"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- airflow -->
+  <g fill="none" stroke="#4fa3d9" stroke-width="14" stroke-linecap="round">
+    <path d="M206 92 q-18 -22 0 -44 q18 -22 0 -44" opacity="0.55"/>
+    <path d="M306 92 q-18 -22 0 -44 q18 -22 0 -44" opacity="0.55"/>
+  </g>
+  <!-- chimney -->
+  <rect x="196" y="96" width="120" height="150" rx="10" fill="url(#steel)" stroke="#5b6672" stroke-width="10"/>
+  <!-- canopy -->
+  <path d="M196 236 H316 L444 352 Q452 360 444 368 H68 Q60 360 68 352 Z" fill="url(#steel)" stroke="#5b6672" stroke-width="10" stroke-linejoin="round"/>
+  <!-- front edge -->
+  <rect x="56" y="362" width="400" height="34" rx="10" fill="#5b6672"/>
+  <!-- lights -->
+  <circle cx="176" cy="379" r="9" fill="#ffd166"/>
+  <circle cx="336" cy="379" r="9" fill="#ffd166"/>
+  <!-- light glow -->
+  <path d="M150 396 H202 L236 500 H116 Z" fill="url(#glow)"/>
+  <path d="M310 396 H362 L396 500 H276 Z" fill="url(#glow)"/>
+</svg>

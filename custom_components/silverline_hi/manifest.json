@@ -1,0 +1,18 @@
+{
+  "domain": "silverline_hi",
+  "name": "Silverline Hi+",
+  "categories": [
+    "appliances_cleaning.cooking"
+  ],
+  "codeowners": [
+    "@kevinstampe"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/kevinstampe/ha-silverline-hi",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/kevinstampe/ha-silverline-hi/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
